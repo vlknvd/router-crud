@@ -1,0 +1,48 @@
+.post-edit {
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid black;
+}
+
+.post-edit-header {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.post-edit-content {
+    padding: 10px;
+}
+
+.post-edit-button {
+    width: 95%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.post-editor {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.textarea-edit {
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.post-editor-button {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

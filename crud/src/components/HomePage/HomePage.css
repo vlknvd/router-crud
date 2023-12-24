@@ -1,0 +1,30 @@
+.button-create .post{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto 20px;
+    align-items: flex-start;
+    border: 1px solid black
+}
+
+.post-header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+img {
+    width: 10%;
+    height: 10%;
+    margin-right: 10px;
+}
+
+.post-content {
+    padding: 10px;
+}
